@@ -10,7 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 @SpringBootApplication
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class BlogPessoalApplication {
 
 	public ModelAndView SwaggerUi() {
